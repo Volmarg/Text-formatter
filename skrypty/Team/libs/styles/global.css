@@ -1,0 +1,46 @@
+*{
+  font-family: 'Port Lligat Slab';
+}
+
+h1, h2, h3{
+  text-align: center !important;
+}
+
+.container{
+
+}
+
+.container section{
+  margin-top:50px;
+  min-height: 200px;
+
+}
+
+.local{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+}
+
+.previewLocal, .discountsLocal{
+  background:none !important;
+  box-shadow: none !important;
+}
+
+.local section{
+  margin:10px;
+  min-width:300px;
+  min-height:600px;
+
+  background-color:rgba(55,197,208,0.8);
+  box-shadow:2px 2px 1px rgba(0,0,0,.3);
+
+  padding-left:10px;
+  padding-right:10px;
+}
+
+#discounts{
+  font-weight:bold;
+  color:black;
+  font-size:15px;
+}

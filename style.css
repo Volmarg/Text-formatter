@@ -1,0 +1,368 @@
+
+/* 
+=============================================
+=   Elementy wspólne wszystkich paneli      =
+=============================================
+*/
+
+.left_side>textarea, .right_side>textarea, .center_panel>textarea{
+	
+	width:90%;
+	height:70%;
+	margin:3%;
+    padding:10px;
+
+}
+
+.naglowek{
+	
+	font-weight:900;
+	text-align:center;
+
+}
+
+/* 
+=============================================
+=   Wszystkie g³ówne panele			        =
+=============================================
+*/
+
+.left_side, .right_side, .right_side_additional_settings{
+	
+
+	float:left;
+	height:800px;
+    width:45%;
+	
+	font-size:11px;
+}
+
+/* 
+=============================================
+=   LEWA STRONA						        =
+=============================================
+*/
+
+.left_side{
+	
+
+
+}
+/* 
+=============================================
+=   PANEL NA ŒRODKU	 - LEFT >*< RIGHT       =
+=============================================
+*/
+
+.center_panel_fast_acces{
+	width:70px;
+
+	margin:1%;
+    margin-top:4%;
+
+
+	float:left;
+	height:450px;
+
+   background-color:lightgray; 
+   border:4px rgba(255,255,255,0.8) solid;
+   border-radius:10px;
+   color:black;
+
+}
+
+
+
+/* 
+=============================================
+=   PANEL NA ŒRODKU	 - CONTROLL PANEL       =
+=============================================
+*/
+
+.control_panel{
+
+
+}
+
+.center_panel{
+	
+	width:100%;
+	margin:1%;
+
+
+	float:left;
+	height:150px;
+
+   background-color:lightgray; 
+   border:4px rgba(255,255,255,0.8) solid;
+   border-radius:10px;
+   color:black;
+}
+
+.konsola_testowa{
+	
+	
+}
+
+.button{
+	width:30px;
+	height:30px;
+	border:2px black solid;
+	border-radius:5px;
+	background-color:white;
+	
+	color:black;
+	font-weight:900;
+	font-size:16px;
+	text-align:center;
+	
+	padding:3px;
+	margin:3px;
+	box-shadow:5px 8px 15px gray inset,-5px -8px 5px gray inset;
+	
+	float:left;
+}
+
+.button:hover{
+	
+	box-shadow:5px 8px 15px rgba(0,0,0,0.2) inset,-5px -8px 5px rgba(0,0,0,0.2) inset;
+}
+
+.button_big{
+	width:150px;
+	height:30px;
+	border:2px black solid;
+	border-radius:5px;
+	background-color:white;
+	
+	color:black;
+	font-weight:900;
+	font-size:16px;
+	text-align:center;
+	
+	padding:3px;
+	margin:3px;
+	box-shadow:5px 8px 15px gray inset,-5px -8px 5px gray inset;
+	
+	float:left;	
+	
+}
+
+.button_big:hover, .button_special:hover{
+	
+	box-shadow:5px 8px 15px rgba(0,0,0,0.2) inset,-5px -8px 5px rgba(0,0,0,0.2) inset;
+}
+
+.button_special{
+	width:50px;
+	height:50px;
+	border:2px black solid;
+	border-radius:5px;
+	background-color:white;
+	
+	color:black;
+
+	
+	padding:3px;
+	margin:3px;
+	box-shadow:5px 8px 15px gray inset,-5px -8px 5px gray inset;
+	
+	float:left;	
+
+    display:flex;
+    align-content:center;
+    justify-content:center;
+
+}
+
+.button_special>p{
+	font-weight:900;
+	font-size:40px;
+	text-align:center;
+    padding:0px;
+    margin:0px;
+    align-self:center;
+
+}
+
+/* 
+--------------------------------------------------------
+- Style dla wstawianych elementów document.createElem. -
+--------------------------------------------------------
+*/
+
+/* FORMULARZ np. dla <a>  */
+.single_window{
+	position:absolute;
+	padding:30px;
+	margin-top:0px;
+	
+	background-color:gray;
+	border:1px black solid;
+	border-radius:25px;
+	
+	opacity:0.9;
+	
+}
+
+/* X do zamykania okienek */
+
+#x_button{
+
+	color:black;
+	font-size:15px;
+	float:right;
+	
+	padding-bottom:10px;
+	margin-top:-10px;
+}
+
+/* Submit do formularza */
+#submit_input{
+	color:black;
+	float:right;
+
+	border:1px black solid;
+	border-radius:5px;
+	padding:3px;
+	font-size:15px;	
+}
+
+/* 
+=============================================
+=   PRAWA STRONA- PODGL¥D       	        =
+=============================================
+*/
+
+.right_side{
+	
+
+
+}
+
+.tresc_wyjsciowa{
+	background:white;
+	width:auto;
+	height:70%;
+
+	margin:3%;
+	color:black;
+	
+	word-break:break-all;
+	padding:10px;
+
+    overflow:scroll;
+	
+}
+
+/* 
+-------------------------------
+- Szybki podgl¹d do zajawki   -
+-------------------------------
+*/
+
+.small_text_boxes{
+	
+}
+
+.small_text_box_V{
+	float:left;
+	
+	width:300px;
+	height:400px;
+	
+	border:1px black dashed;
+	
+	padding:5px;
+	margin:5px;
+	
+}
+
+.small_text_box_V img{
+	width:100px;
+	
+}
+
+.small_text_box_V p{
+	text-align:justify;
+	padding:10px;
+	
+}
+
+
+/* 
+=============================================
+= PANEL OPCJI DODADKOWYCH CA£KIEM NA PRAWO  =
+=============================================
+*/
+
+
+
+/* 
+=============================================
+=   STYLE GENERATORA ZAJAWEK                =
+=============================================
+*/
+
+#panel_generatora_zajawek{
+    width:70%;
+    display:flex;
+    justify-content:space-around;
+
+}
+
+#lewa_strona_panel_generatora_zajawek{
+    width:100%;
+
+}
+
+#prawa_strona_generatora_zajawek{
+    width:25%;
+
+
+
+}
+
+#panel_generatora_zajawek, #lewa_strona_panel_generatora_zajawek, #prawa_strona_generatora_zajawek{
+    border:2px red dotted;
+    position:relative;
+    
+}
+
+/* 
+-------------------------------
+- BUTTONS                     -
+-------------------------------
+*/
+
+.generator_zajawek_little_buttons{
+    width:25px;
+    height:25px;
+    border:1px black solid;
+    border-radius:10px;
+    
+    text-align:center;
+
+}
+
+
+/* 
+-------------------------------
+- WSPÓLE USTAWIENIA PANELI    -
+-------------------------------
+*/
+.ilosc_zajawek_settings, #buttons{
+    display:flex;
+    justify-content:space-between;
+
+}
+
+
+/* 
+-------------------------------
+- STYLE = USTAWIENIA ZAJAWEK  -
+-------------------------------
+*/
+#single_zajawka_form1_zajawki_settings>input {
+    float: left;
+}
